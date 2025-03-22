@@ -1,0 +1,23 @@
+running egg_info
+writing ../build/sample_cli/sample_cli.egg-info/PKG-INFO
+writing dependency_links to ../build/sample_cli/sample_cli.egg-info/dependency_links.txt
+writing entry points to ../build/sample_cli/sample_cli.egg-info/entry_points.txt
+writing requirements to ../build/sample_cli/sample_cli.egg-info/requires.txt
+writing top-level names to ../build/sample_cli/sample_cli.egg-info/top_level.txt
+reading manifest file '../build/sample_cli/sample_cli.egg-info/SOURCES.txt'
+writing manifest file '../build/sample_cli/sample_cli.egg-info/SOURCES.txt'
+running build
+running build_py
+copying sample_cli/cli.py -> /home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/build/lib/sample_cli
+running install
+running install_lib
+copying /home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/build/lib/sample_cli/cli.py -> /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/lib/python3.12/site-packages/sample_cli
+byte-compiling /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/lib/python3.12/site-packages/sample_cli/cli.py to cli.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/lib/python3.12/site-packages/sample_cli-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../build/sample_cli/sample_cli.egg-info to /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/lib/python3.12/site-packages/sample_cli-0.0.0-py3.12.egg-info
+running install_scripts
+Installing cli script to /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/lib/sample_cli
+Installing server script to /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/lib/sample_cli
+writing list of installed files to '/home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/install.log'

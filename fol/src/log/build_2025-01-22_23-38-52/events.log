@@ -1,0 +1,114 @@
+[0.000000] (-) TimerEvent: {}
+[0.000978] (sample_cli) JobQueued: {'identifier': 'sample_cli', 'dependencies': OrderedDict()}
+[0.001105] (sample_cli) JobStarted: {'identifier': 'sample_cli'}
+[0.099581] (-) TimerEvent: {}
+[0.200150] (-) TimerEvent: {}
+[0.300821] (-) TimerEvent: {}
+[0.401398] (-) TimerEvent: {}
+[0.502028] (-) TimerEvent: {}
+[0.602661] (-) TimerEvent: {}
+[0.703171] (-) TimerEvent: {}
+[0.803810] (-) TimerEvent: {}
+[0.904365] (-) TimerEvent: {}
+[1.004869] (-) TimerEvent: {}
+[1.105443] (-) TimerEvent: {}
+[1.206723] (-) TimerEvent: {}
+[1.310390] (-) TimerEvent: {}
+[1.411464] (-) TimerEvent: {}
+[1.512691] (-) TimerEvent: {}
+[1.613944] (-) TimerEvent: {}
+[1.715112] (-) TimerEvent: {}
+[1.815723] (-) TimerEvent: {}
+[1.916295] (-) TimerEvent: {}
+[2.016840] (-) TimerEvent: {}
+[2.117919] (-) TimerEvent: {}
+[2.219109] (-) TimerEvent: {}
+[2.319683] (-) TimerEvent: {}
+[2.420232] (-) TimerEvent: {}
+[2.520717] (-) TimerEvent: {}
+[2.621927] (-) TimerEvent: {}
+[2.722502] (-) TimerEvent: {}
+[2.823053] (-) TimerEvent: {}
+[2.923595] (-) TimerEvent: {}
+[3.024788] (-) TimerEvent: {}
+[3.125334] (-) TimerEvent: {}
+[3.225855] (-) TimerEvent: {}
+[3.327080] (-) TimerEvent: {}
+[3.428364] (-) TimerEvent: {}
+[3.528927] (-) TimerEvent: {}
+[3.629482] (-) TimerEvent: {}
+[3.729946] (-) TimerEvent: {}
+[3.831049] (-) TimerEvent: {}
+[3.931594] (-) TimerEvent: {}
+[4.032153] (-) TimerEvent: {}
+[4.132722] (-) TimerEvent: {}
+[4.233266] (-) TimerEvent: {}
+[4.333795] (-) TimerEvent: {}
+[4.435036] (-) TimerEvent: {}
+[4.535623] (-) TimerEvent: {}
+[4.636859] (-) TimerEvent: {}
+[4.737372] (-) TimerEvent: {}
+[4.837894] (-) TimerEvent: {}
+[4.938436] (-) TimerEvent: {}
+[5.039010] (-) TimerEvent: {}
+[5.139589] (-) TimerEvent: {}
+[5.240154] (-) TimerEvent: {}
+[5.340714] (-) TimerEvent: {}
+[5.441303] (-) TimerEvent: {}
+[5.541941] (-) TimerEvent: {}
+[5.642666] (-) TimerEvent: {}
+[5.647094] (sample_cli) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/sample_cli', 'build', '--build-base', '/home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/build', 'install', '--record', '/home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/nandhan-golla/Desktop/ros_tutorials/fol/src/sample_cli', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'nandhan-golla', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/nandhan-golla', 'OLDPWD': '/home/nandhan-golla/Desktop/ros_tutorials/fol', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'SYSTEMD_EXEC_PID': '2090', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'nandhan-golla', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/rolling/bin:/home/nandhan-golla/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/Nandhan-Golla-Hp-Omen:@/tmp/.ICE-unix/2065,unix/Nandhan-Golla-Hp-Omen:/tmp/.ICE-unix/2065', 'GDM_LANG': 'en_US', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/be2d96cf_feb6_4bc0_8b85_714e103155c4', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/home/nandhan-golla/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/nandhan-golla', 'AMENT_PREFIX_PATH': '/opt/ros/rolling', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/lib/python3.12/site-packages:/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor'}, 'shell': False}
+[5.743573] (-) TimerEvent: {}
+[5.844146] (-) TimerEvent: {}
+[5.944739] (-) TimerEvent: {}
+[6.045310] (-) TimerEvent: {}
+[6.145919] (-) TimerEvent: {}
+[6.246563] (-) TimerEvent: {}
+[6.291939] (sample_cli) StdoutLine: {'line': b'running egg_info\n'}
+[6.292627] (sample_cli) StdoutLine: {'line': b'creating ../build/sample_cli/sample_cli.egg-info\n'}
+[6.328560] (sample_cli) StdoutLine: {'line': b'writing ../build/sample_cli/sample_cli.egg-info/PKG-INFO\n'}
+[6.329135] (sample_cli) StdoutLine: {'line': b'writing dependency_links to ../build/sample_cli/sample_cli.egg-info/dependency_links.txt\n'}
+[6.329674] (sample_cli) StdoutLine: {'line': b'writing entry points to ../build/sample_cli/sample_cli.egg-info/entry_points.txt\n'}
+[6.329979] (sample_cli) StdoutLine: {'line': b'writing requirements to ../build/sample_cli/sample_cli.egg-info/requires.txt\n'}
+[6.330403] (sample_cli) StdoutLine: {'line': b'writing top-level names to ../build/sample_cli/sample_cli.egg-info/top_level.txt\n'}
+[6.330684] (sample_cli) StdoutLine: {'line': b"writing manifest file '../build/sample_cli/sample_cli.egg-info/SOURCES.txt'\n"}
+[6.346744] (-) TimerEvent: {}
+[6.405527] (sample_cli) StdoutLine: {'line': b"reading manifest file '../build/sample_cli/sample_cli.egg-info/SOURCES.txt'\n"}
+[6.406679] (sample_cli) StdoutLine: {'line': b"writing manifest file '../build/sample_cli/sample_cli.egg-info/SOURCES.txt'\n"}
+[6.407344] (sample_cli) StdoutLine: {'line': b'running build\n'}
+[6.407744] (sample_cli) StdoutLine: {'line': b'running build_py\n'}
+[6.408033] (sample_cli) StdoutLine: {'line': b'creating /home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/build\n'}
+[6.408603] (sample_cli) StdoutLine: {'line': b'creating /home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/build/lib\n'}
+[6.408982] (sample_cli) StdoutLine: {'line': b'creating /home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/build/lib/sample_cli\n'}
+[6.409313] (sample_cli) StdoutLine: {'line': b'copying sample_cli/cli.py -> /home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/build/lib/sample_cli\n'}
+[6.409609] (sample_cli) StdoutLine: {'line': b'copying sample_cli/__init__.py -> /home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/build/lib/sample_cli\n'}
+[6.409883] (sample_cli) StdoutLine: {'line': b'copying sample_cli/server.py -> /home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/build/lib/sample_cli\n'}
+[6.410147] (sample_cli) StdoutLine: {'line': b'running install\n'}
+[6.420677] (sample_cli) StdoutLine: {'line': b'running install_lib\n'}
+[6.446983] (-) TimerEvent: {}
+[6.458891] (sample_cli) StdoutLine: {'line': b'creating /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/lib/python3.12/site-packages/sample_cli\n'}
+[6.459628] (sample_cli) StdoutLine: {'line': b'copying /home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/build/lib/sample_cli/cli.py -> /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/lib/python3.12/site-packages/sample_cli\n'}
+[6.460021] (sample_cli) StdoutLine: {'line': b'copying /home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/build/lib/sample_cli/__init__.py -> /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/lib/python3.12/site-packages/sample_cli\n'}
+[6.460363] (sample_cli) StdoutLine: {'line': b'copying /home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/build/lib/sample_cli/server.py -> /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/lib/python3.12/site-packages/sample_cli\n'}
+[6.460772] (sample_cli) StdoutLine: {'line': b'byte-compiling /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/lib/python3.12/site-packages/sample_cli/cli.py to cli.cpython-312.pyc\n'}
+[6.462640] (sample_cli) StdoutLine: {'line': b'byte-compiling /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/lib/python3.12/site-packages/sample_cli/__init__.py to __init__.cpython-312.pyc\n'}
+[6.463158] (sample_cli) StdoutLine: {'line': b'byte-compiling /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/lib/python3.12/site-packages/sample_cli/server.py to server.cpython-312.pyc\n'}
+[6.463731] (sample_cli) StdoutLine: {'line': b'running install_data\n'}
+[6.464178] (sample_cli) StdoutLine: {'line': b'creating /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/share/ament_index\n'}
+[6.464773] (sample_cli) StdoutLine: {'line': b'creating /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/share/ament_index/resource_index\n'}
+[6.465086] (sample_cli) StdoutLine: {'line': b'creating /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/share/ament_index/resource_index/packages\n'}
+[6.465449] (sample_cli) StdoutLine: {'line': b'copying resource/sample_cli -> /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/share/ament_index/resource_index/packages\n'}
+[6.466176] (sample_cli) StdoutLine: {'line': b'copying package.xml -> /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/share/sample_cli\n'}
+[6.466677] (sample_cli) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.504900] (sample_cli) StdoutLine: {'line': b'Copying ../build/sample_cli/sample_cli.egg-info to /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/lib/python3.12/site-packages/sample_cli-0.0.0-py3.12.egg-info\n'}
+[6.506355] (sample_cli) StdoutLine: {'line': b'running install_scripts\n'}
+[6.547240] (-) TimerEvent: {}
+[6.647820] (-) TimerEvent: {}
+[6.748436] (-) TimerEvent: {}
+[6.755240] (sample_cli) StdoutLine: {'line': b'Installing cli script to /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/lib/sample_cli\n'}
+[6.755871] (sample_cli) StdoutLine: {'line': b'Installing server script to /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/lib/sample_cli\n'}
+[6.756269] (sample_cli) StdoutLine: {'line': b"writing list of installed files to '/home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/install.log'\n"}
+[6.840120] (sample_cli) CommandEnded: {'returncode': 0}
+[6.848589] (-) TimerEvent: {}
+[6.933431] (sample_cli) JobEnded: {'identifier': 'sample_cli', 'rc': 0}
+[6.935204] (-) EventReactorShutdown: {}

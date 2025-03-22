@@ -1,0 +1,41 @@
+[5.648s] Invoking command in '/home/nandhan-golla/Desktop/ros_tutorials/fol/src/sample_cli': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sample_cli build --build-base /home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/build install --record /home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/install.log --single-version-externally-managed install_data
+[6.291s] running egg_info
+[6.292s] creating ../build/sample_cli/sample_cli.egg-info
+[6.328s] writing ../build/sample_cli/sample_cli.egg-info/PKG-INFO
+[6.328s] writing dependency_links to ../build/sample_cli/sample_cli.egg-info/dependency_links.txt
+[6.329s] writing entry points to ../build/sample_cli/sample_cli.egg-info/entry_points.txt
+[6.329s] writing requirements to ../build/sample_cli/sample_cli.egg-info/requires.txt
+[6.329s] writing top-level names to ../build/sample_cli/sample_cli.egg-info/top_level.txt
+[6.330s] writing manifest file '../build/sample_cli/sample_cli.egg-info/SOURCES.txt'
+[6.405s] reading manifest file '../build/sample_cli/sample_cli.egg-info/SOURCES.txt'
+[6.406s] writing manifest file '../build/sample_cli/sample_cli.egg-info/SOURCES.txt'
+[6.407s] running build
+[6.407s] running build_py
+[6.407s] creating /home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/build
+[6.408s] creating /home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/build/lib
+[6.408s] creating /home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/build/lib/sample_cli
+[6.408s] copying sample_cli/cli.py -> /home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/build/lib/sample_cli
+[6.409s] copying sample_cli/__init__.py -> /home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/build/lib/sample_cli
+[6.409s] copying sample_cli/server.py -> /home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/build/lib/sample_cli
+[6.409s] running install
+[6.420s] running install_lib
+[6.458s] creating /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/lib/python3.12/site-packages/sample_cli
+[6.459s] copying /home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/build/lib/sample_cli/cli.py -> /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/lib/python3.12/site-packages/sample_cli
+[6.459s] copying /home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/build/lib/sample_cli/__init__.py -> /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/lib/python3.12/site-packages/sample_cli
+[6.459s] copying /home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/build/lib/sample_cli/server.py -> /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/lib/python3.12/site-packages/sample_cli
+[6.460s] byte-compiling /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/lib/python3.12/site-packages/sample_cli/cli.py to cli.cpython-312.pyc
+[6.462s] byte-compiling /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/lib/python3.12/site-packages/sample_cli/__init__.py to __init__.cpython-312.pyc
+[6.462s] byte-compiling /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/lib/python3.12/site-packages/sample_cli/server.py to server.cpython-312.pyc
+[6.463s] running install_data
+[6.464s] creating /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/share/ament_index
+[6.464s] creating /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/share/ament_index/resource_index
+[6.464s] creating /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/share/ament_index/resource_index/packages
+[6.465s] copying resource/sample_cli -> /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/share/ament_index/resource_index/packages
+[6.465s] copying package.xml -> /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/share/sample_cli
+[6.466s] running install_egg_info
+[6.504s] Copying ../build/sample_cli/sample_cli.egg-info to /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/lib/python3.12/site-packages/sample_cli-0.0.0-py3.12.egg-info
+[6.506s] running install_scripts
+[6.754s] Installing cli script to /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/lib/sample_cli
+[6.755s] Installing server script to /home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/lib/sample_cli
+[6.755s] writing list of installed files to '/home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/install.log'
+[6.840s] Invoked command in '/home/nandhan-golla/Desktop/ros_tutorials/fol/src/sample_cli' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sample_cli build --build-base /home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/build install --record /home/nandhan-golla/Desktop/ros_tutorials/fol/src/build/sample_cli/install.log --single-version-externally-managed install_data

@@ -1,0 +1,11 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/lib/python3.12/site-packages",
+        "/opt/ros/rolling/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/nandhan-golla/Desktop/ros_tutorials/fol/src/install/sample_cli/lib/python3.12/site-packages",
+        "/opt/ros/rolling/lib/python3.12/site-packages"
+    ],
+    "ros.distro": "rolling"
+}

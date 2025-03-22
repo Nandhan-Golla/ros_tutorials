@@ -1,0 +1,53 @@
+[0.023s] Invoking command in '/home/nandhan-golla/Desktop/ros_tutorials/fol2/build/robot_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nandhan-golla/Desktop/ros_tutorials/fol2/src/robot_interface -DCMAKE_INSTALL_PREFIX=/home/nandhan-golla/Desktop/ros_tutorials/fol2/install/robot_interface
+[0.052s] -- Found ament_cmake: 2.7.2 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.431s] -- Found rosidl_default_generators: 1.7.1 (/opt/ros/rolling/share/rosidl_default_generators/cmake)
+[0.435s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.499s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.552s] -- Found rosidl_adapter: 4.9.3 (/opt/ros/rolling/share/rosidl_adapter/cmake)
+[1.067s] [31mCMake Error at /opt/ros/rolling/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[1.067s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[1.067s]   robot_interface --arguments-file
+[1.068s]   /home/nandhan-golla/Desktop/ros_tutorials/fol2/build/robot_interface/rosidl_adapter__arguments__robot_interface.json
+[1.068s]   --output-dir
+[1.068s]   /home/nandhan-golla/Desktop/ros_tutorials/fol2/build/robot_interface/rosidl_adapter/robot_interface
+[1.068s]   --output-file
+[1.068s]   /home/nandhan-golla/Desktop/ros_tutorials/fol2/build/robot_interface/rosidl_adapter/robot_interface.idls)
+[1.069s]   returned error code 1:
+[1.069s] 
+[1.069s]   Traceback (most recent call last):
+[1.069s] 
+[1.070s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[1.070s]     File "<frozen runpy>", line 88, in _run_code
+[1.070s]     File "/opt/ros/rolling/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.070s]       main()
+[1.070s]     File "/opt/ros/rolling/lib/python3.12/site-packages/rosidl_adapter/main.py", line 54, in main
+[1.071s]       abs_idl_file = convert_to_idl(
+[1.071s]                      ^^^^^^^^^^^^^^^
+[1.071s]     File "/opt/ros/rolling/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 27, in convert_to_idl
+[1.071s]       return convert_srv_to_idl(
+[1.072s]              ^^^^^^^^^^^^^^^^^^^
+[1.072s]     File "/opt/ros/rolling/lib/python3.12/site-packages/rosidl_adapter/srv/__init__.py", line 31, in convert_srv_to_idl
+[1.072s]       srv = parse_service_string(package_name, input_file.stem, content)
+[1.072s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.073s]     File "/opt/ros/rolling/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 885, in parse_service_string
+[1.073s]       request_message = parse_message_string(
+[1.073s]                         ^^^^^^^^^^^^^^^^^^^^^
+[1.073s]     File "/opt/ros/rolling/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 563, in parse_message_string
+[1.073s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[1.074s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.074s]     File "/opt/ros/rolling/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 406, in __init__
+[1.074s]       self.base_type = BaseType(
+[1.074s]                        ^^^^^^^^^
+[1.075s]     File "/opt/ros/rolling/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 221, in __init__
+[1.075s]       raise InvalidResourceName(
+[1.075s] 
+[1.075s]   rosidl_adapter.parser.InvalidResourceName: 'sample_Request' is an invalid
+[1.075s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[1.076s] 
+[1.076s] Call Stack (most recent call first):
+[1.076s]   /opt/ros/rolling/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[1.076s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[1.077s] 
+[1.077s] [0m
+[1.077s] -- Configuring incomplete, errors occurred!
+[1.083s] Invoked command in '/home/nandhan-golla/Desktop/ros_tutorials/fol2/build/robot_interface' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nandhan-golla/Desktop/ros_tutorials/fol2/src/robot_interface -DCMAKE_INSTALL_PREFIX=/home/nandhan-golla/Desktop/ros_tutorials/fol2/install/robot_interface

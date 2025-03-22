@@ -1,0 +1,4 @@
+source;share/sample_cli/hook/pythonpath.dsv
+source;share/sample_cli/hook/pythonpath.sh
+source;share/sample_cli/hook/ament_prefix_path.dsv
+source;share/sample_cli/hook/ament_prefix_path.sh

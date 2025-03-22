@@ -1,0 +1,6 @@
+{
+  "package_name": "robot_interface",
+  "non_idl_tuples": [
+    "/home/nandhan-golla/Desktop/ros_tutorials/fol2/src/robot_interface:srv/sample.srv"
+  ]
+}

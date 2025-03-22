@@ -1,0 +1,3 @@
+[console_scripts]
+cli = sample_cli.cli:main
+server = sample_cli.server:main
